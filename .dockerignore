@@ -1,0 +1,21 @@
+.git
+.github
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.venv
+venv
+
+# Local runtime secrets/state. Gemini cookies must be mounted at runtime only.
+.env
+config.conf
+har_and_cookies
+generated_media
+
+# Local editor and OS files.
+.vscode
+.idea
+.DS_Store
+Thumbs.db
